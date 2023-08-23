@@ -1,0 +1,35 @@
+table{
+    width: 75%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table, th, td{
+        border: 1PX solid #333;
+        border-collapse: collapse;
+        border-spacing: 0px;
+}
+thead th{
+    color: #333;
+    /*background-color: lightgray;*/
+    background-color: transparent;
+    background-image:url( "assets/imagenes/fondo_gris.gif");
+    background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
+    background-repeat: no-repeat;
+    height: 8%; /* Ajusta la altura del contenedor como desees */
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: #FFFFCC;
+}
+tr:nth-child(odd){
+    background-color: white;
+}
+td{
+    text-align: center;
+}
+th{
+    background-color: #E6F3FF;
+    text-align: left;
+}
