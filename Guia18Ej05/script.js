@@ -1,5 +1,5 @@
-var num1 = parseFloat(prompt("Ingrese el numero 1"));
-var num2 = parseFloat(prompt("Ingrese el numero 2"));
+var num1 = Number(prompt("Ingrese el numero 1"));
+var num2 = Number(prompt("Ingrese el numero 2"));
 
 var opcion = prompt("Ingrese la operacion a realizar");
 
