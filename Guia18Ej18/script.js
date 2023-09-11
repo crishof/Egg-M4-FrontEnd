@@ -8,6 +8,8 @@ var valores = [true, 5, false, "hola", "adios", 2];
 
 console.log(valores);
 
+
+
 console.log(
     valores[3].length > valores[4].length
         ? `La palabra ${valores[3]} es más larga`

@@ -1,0 +1,49 @@
+*{
+    margin: auto;
+    padding: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+p{
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin: 10px 5px 5px 20px;
+}
+
+form{
+    border: 1px solid #222222;
+    padding: 10px;
+    margin: 10px 20px 10px 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    box-shadow: 3px 3px 5px rgb(204, 202, 202);
+}
+
+input{
+    margin: 10px;
+}
+.btn-submit{
+    background-color: rgb(223, 223, 223);
+}
+
+div{
+    
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+hr{
+    height: 5px;
+    border: solid 1px #222222;
+    background-color: rgb(200, 194, 194);
+    margin: 10px 20px 10px 20px;
+}
+

@@ -1,5 +1,5 @@
-alert("Hola ")
 const pi = Math.PI;
+
 
 let radio = prompt("Ingrese el radio");
 

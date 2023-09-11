@@ -3,15 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="/Egg/Modulo4 - FrontEnd/Ejercicios/estilos/estilos.css">
 </head>
 <body>
+        <h1>Ejercicio 2</h1>
     
-
-    1. Escribir un algoritmo en el cual se consulte al usuario que ingrese ¿cómo está el día de
-hoy? (soleado, nublado, lloviendo). A continuación, mostrar por pantalla un mensaje que
-indique “El día de hoy está ...”, completando el mensaje con el dato que ingresó el usuario.
-
+        <p>Conocido el número en matemática PI π, pedir al usuario que ingrese el valor del radio
+        de una circunferencia y calcular y mostrar por pantalla el área y perímetro. Recuerde que
+        para calcular el área y el perímetro se utilizan las siguientes fórmulas:
+        area = PI * radio2
+        perimetro = 2 * PI * radio</p>
+    
     <script src="script.js" type="text/javascript"></script>
+
+    <form id="form1" onsubmit="getFormValores()">
+        <label for="radio">Ingrese el valor del radio</label><br>
+        <input type="text" id="clima"/input><br/>
+        <input type="submit" value="Calcular" class="btn-submit">
+    </form>
+
+    <div id="respuestaRadio">
+        <p>Aqui aparecerá la respuesta</p>
+    </div>
 </body>
 </html>

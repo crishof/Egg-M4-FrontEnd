@@ -3,14 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="/Egg/Modulo4 - FrontEnd/Ejercicios/estilos/estilos.css">
 </head>
 <body>
-    
-    1. Escribir un algoritmo en el cual se consulte al usuario que ingrese ¿cómo está el día de
-hoy? (soleado, nublado, lloviendo). A continuación, mostrar por pantalla un mensaje que
-indique “El día de hoy está ...”, completando el mensaje con el dato que ingresó el usuario.
+    <h1>Ejercicio 1</h1>
+    <p>Escribir un algoritmo en el cual se consulte al usuario que ingrese ¿cómo está el día de
+hoy? (soleado, nublado, lloviendo). <br>A continuación, mostrar por pantalla un mensaje que
+indique “El día de hoy está ...”, completando el mensaje con el dato que ingresó el usuario.</p>
 
+<form id="form1" onsubmit="getFormValores()">
+    <label for="clima">Como está el clima hoy?</label><br/>
+    <input type="text" id="clima"/><br/>
+    <input class="btn-submit" type="submit" value="Enviar"/>
+</form>
+
+<div id="respuestaClima">
+    <p>Aqui aparecerá la respuesta</p>
+</div>
+
+
+<hr>
 
     <script src="script.js" type="text/javascript"></script>
 </body>
