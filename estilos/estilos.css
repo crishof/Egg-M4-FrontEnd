@@ -40,6 +40,14 @@ div{
     text-align: center;
 }
 
+.return{
+    border: solid 1px #222222;
+    box-shadow: 3px 3px 5px rgb(204, 202, 202);
+    height: 20px;
+    color:#686bb9;
+    background-color: aliceblue;
+}
+
 hr{
     height: 5px;
     border: solid 1px #222222;
