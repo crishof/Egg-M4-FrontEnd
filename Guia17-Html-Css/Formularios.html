@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div>
+            <!-- atributos form
+            action : guia el formulario a destino
+            metodo : envio de informacion
+            class: ayuda a modificar estéticamente el formulario
+            enctype: anticipa al formulario para el envío de imagenes -->
+            <form action=""/controlador-registro method="POST" class=" form-registro" enctype="multipart/form-data">
+                <div>
+                    <!-- Label
+                    for coincide con name. Name es la variable-->
+                    <label for="nombre"></label>
+                    <input name="nombre" type="text" placeholder="nombre y apellido" required>
+                </div>
+                <div>
+                    <label for="mail"></label>
+                    <input name="mail" type="mail" placeholder="mail@mail.com" required>
+                </div>
+                <div>
+                    <label for=""></label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label for=""></label>
+                    <input type="text">
+                </div>
+            </form>
+        </div>
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<>
+
+    <h2>Parrafos</h2>
+
+    <!--
+        Alineacion de parrafos
+    -->
+    <p align="center">Alineado al centro.</p>
+    <p align="left">Alineado a la izquierda.</p>
+    <p align="right">Alineado a la derecha.</p>
+
+    <!--
+        Enlaces
+
+        / para ir a un directorio interior
+        ../ para ir a un directorio padre
+    -->
+
+    <h2>Tablas</h2>
+
+    <table border="">
+        <tr>
+            <th>Titulo celda 1</th>
+            <th>Titulo celda 2</th>
+        </tr>
+        <tr>
+            <td>Celda1 linea 1</td>
+            <td>Celda2 linea 1</td>
+        </tr>
+        <tr>
+            <td>Celda1 linea 2</td>
+            <td>Celda2 linea 2</td>
+        </tr>
+    </table>
+
+    <h2>Formularios</h2>
+
+    <label>Nombre de usuario</label>
+    <input type="text" name="user" size="30" placeholder="Nombre de usuario"><br>
+    <label>numero de documento</label>
+    <input type="number"><br>
+    <label>fecha</label>
+    <input type="date"><br>
+    <label>email</label>
+    <input type="email" value="email"><br>
+    <label>password</label>
+    <input type="password" value="password"><br>
+
+    <textarea name="Comentario" id="idComent" cols="30" rows="10" placeholder="Ingrese aqui un texto"></textarea>
+
+    <h2>Atributo for</h2>
+
+    <label for="nombre">Nombre del Usuario</label>
+<input type="text" id="nombre" name="nombre">
+
+<h2>Listas de opciones</h2>
+
+<select name="estacion" id="estacion" size="2">
+    <option value="1">Primavera</option>
+    <option value="2">Verano</option>
+    <option value="3" selected>Otoño</option>
+    <option value="4">Invierno</option>
+</select>
+
+
+<h2>Botones de radio</h2>
+
+<input type="radio" name="estacion" value="1">Primavera
+<input type="radio" name="estacion" value="2">Verano
+<input type="radio" name="estacion" value="3">Otoño
+<input type="radio" name="estacion" value="4">Invierno
+<br>
+<h2>Con Etiqueta label se puede clickear el nombre también</h2>
+
+<input type="radio" id="primavera" name="estacion" value="1">
+<label for="primavera">Primavera</label>
+<br>
+<input type="radio" id="verano" name="estacion" value="2">
+<label for="verano">Verano</label>
+<br>
+<input type="radio" id="otonio" name="estacion" value="3">
+<label for="otonio">Otoño</label>
+<br>
+<input type="radio" id="invierno" name="estacion" value="4">
+<label for="invierno">Invierno</label>
+
+<h2>Caja de validacion</h2>
+
+<input type="checkbox" name="estacion" value="1">Primavera
+<input type="checkbox" name="estacion" value="2">Verano
+<input type="checkbox" name="estacion" value="3">Otoño
+<input type="checkbox" name="estacion" value="4">Invierno
+
+<h2>Boton de envio del formulario</h2>
+
+<button type="submit">Enviar</button>
+<button type="reset">Borrar</button>
+
+<h2>Datos ocultos</h2>
+
+<input type="hidden" name="Instituto" value="Egg">
+
+<h2>Formulario completo</h2>
+
+<form action="ruta del método que va a manejar la información" method="POST"
+enctype="multipart/form-data"></form>
+<label>Nombre del usuario</label> <br>
+<input type="text" name="nombre"> <br>
+<label>Edad del usuario</label> <br>
+<input type="number" name="edad "> <br>
+<label>Fecha de nacimiento del usuario</label> <br>
+<input type="date" name="fechanac"> <br>
+<label>Sexo del usuario</label> <br>
+<input type="radio" name="sexo" value="Hombre"> Hombre <br>
+<input type="radio" name="sexo" value="Mujer"> Mujer <br>
+<label>País nacimiento del usuario</label> <br>
+<select name="pais">
+<option>Argentina</option>
+<option>Brasil</option>
+<option>Chile</option>
+<option>Uruguay</option>
+</select>
+<br>
+<button type="submit">Enviar</button>
+<button type="reset">Borrar</button>
+    
+    <!--
+
+    -->
+    
+</body>
+</html>
